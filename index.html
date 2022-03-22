@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dorn Type Specimen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="./Dorn.ttf" as="font" type="font/ttf" crossorigin="">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="robots" content="noarchive">
+  <meta name="format-detection" content="telephone=no">
+</head>
+<body onclick>
+
+<div class="no-support">
+  <p>It doesn’t look like your browser supports variable fonts!</p>
+</div>
+
+<section class="text">
+  <article id="column">
+    <h1>Justified text on the web</h1>
+    <p>My name is Jonathan Miskolczy and I am a former Bachelor of Arts student at the <span class="capital">FHNW</span> <span class="capital">HGK</span> in Basel, Switzerland. I have studied visual communication with deeper focus on typography. Within my bachelor’s degree I have been working on my bachelor thesis: Designing a variable font for journalistic online media, that I have successfully passed with distinction in August 2021. For my bachelor thesis I have designed an online newspaper for which I created a variable font that can be used in justified texts. This typeface originally was supposed to bring back the typical newspaper character to journalistic online media. While working on my typeface I discovered some issues regarding typefaces used online. I therefore created a new and better way to display them online. For this reason I thought it would be best to share my insights and solution with you. The following text is an excerpt from the bachelor thesis mentioned above.</p>
+    <p>Most browsers of the world wide web are commonly formatting texts in paragraphs that are left-aligned. With its random hyphenations and cut-off lines, left-aligned texts can often appear as unstructured and can therefore compromise readability. Fur&shy;ther&shy;more left-aligned texts can be reminiscent of manuscript texts that, especially in the context of journalistic online media, can seem premature and un&shy;pro&shy;fes&shy;sion&shy;al.</p>
+    <p>Justification can be used to deliberately distance oneself from said manuscript text and on top of that can also be used to convey the impression that the present text is redacted and rectified. Assuming that justification has been used for over 500 years it can be counted as a conventional sentence type. Certain advantages of using justification are e.g. a balanced type setting and stressing the structure of the set layout. However, in order to use justification it is necessary to put enough words in every single line to balance the gaps between every single word. Especially with smaller displays e.g. on smartphones, the implementation of justification is going to be a chal&shy;lenge.</p>
+    <p>My approach to a solution regarding this problem contains the design of a variable font and its implementation on the web by means of <span class="capital">HTML</span>, <span class="capital">CSS</span> and JavaScript. The variable font I have been designing is called Dorn and is inspired by typefaces of printed newspapers. Dorn is a typical Antiqua and can be distinguished by dynamic buoyancy. My typeface Dorn was designed to be read on a computer screen comfortably. In order to enable legibility, Dorn had to be designed with a small line contrast, emphasised serifs and a greater x-height. This variable font also contains two design axis therefore the width and boldness of the letters can be adjusted smoothly to the size of the screen of the device used. Professor Phillip Stamm supervised the practical approach of my bachelor thesis as my personal men&shy;tor.</p>
+    <br>
+    <a href="https://medium.com/@miskolczy/justified-text-on-the-web-3d30a540eeb4">You can read the whole article on medium →</a>
+  </article>
+</section>
+
+<section class="abc">
+  <p>DORN</p>
+  <p>abcdefghijk</p>
+  <p>lmnopqrst</p>
+  <p>uvwxyz</p>
+  <p>1234567890</p>
+  <p>fffiflft</p>
+  <span class="capital">
+    <p>ABCDEF</p>
+    <p>GHIJKLM</p>
+    <p>NOPQRS</p>
+    <p>TUVWXY</p>
+    <p>ZTh</p>
+  </span>
+</section>
+
+<section class="scale">
+<div class="grid offsmall">
+  <div class="flex">
+    <h1><span class="small">48&thinsp;px </span>Dorn Regular</h1>
+    <p class="expanded">Expanded<span class="small"> 7&thinsp;px</span></p>
+  </div>
+</div>
+<div class="grid">
+  <div class="flex">
+    <h2><span class="small">36&thinsp;px </span>Dorn Regular</h2>
+    <h6 class="expanded">Expanded<span class="small"> 10&thinsp;px</span></h6>
+  </div>
+</div>
+<div class="grid">
+  <div class="flex">
+    <h3><span class="small">28&thinsp;px </span>Dorn Regular</h3>
+    <h5 class="expanded">Expanded<span class="small"> 16&thinsp;px</span></h5>
+  </div>
+</div>
+<div class="grid">
+  <div class="flex">
+    <h4><span class="small">20&thinsp;px </span>Dorn Regular</h4>
+    <h4 class="expanded">Expanded<span class="small"> 20&thinsp;px</span></h4>
+  </div>
+</div>
+<div class="grid">
+  <div class="flex">
+    <h5><span class="small">16&thinsp;px </span>Dorn Regular</h5>
+    <h3 class="expanded">Expanded<span class="small"> 28&thinsp;px</span></h3>
+  </div>
+</div>
+<div class="grid">
+  <div class="flex">
+    <h6><span class="small">10&thinsp;px </span>Dorn Regular</h6>
+    <h2 class="expanded">Expanded<span class="small"> 36&thinsp;px</span></h2>
+  </div>
+</div>
+<div class="grid offsmall">
+  <div class="flex">
+    <p><span class="small">7&thinsp;px </span>Dorn Regular</p>
+    <h1 class="expanded">Expanded<span class="small"> 48&thinsp;px</span></h1>
+  </div>
+</div>
+</section>
+
+<section class="typeface">
+  <div class="type">
+    <h1 style="font-variation-settings: 'wght' 400, 'wdth' 50;">Aa</h1>
+    <p>regular</p>
+  </div>
+  <div>
+    <h1 style="font-variation-settings: 'wght' 400, 'wdth' 110;">Aa</h1>
+  </div>
+  <div class="type">
+    <h1 style="font-variation-settings: 'wght' 400, 'wdth' 200;">Aa</h1>
+    <p>regular expanded</p>
+  </div>
+  <div>
+    <h1 style="font-variation-settings: 'wght' 560, 'wdth' 50;">Aa</h1>
+  </div>
+  <div>
+    <h1 style="font-variation-settings: 'wght' 560, 'wdth' 110;">Aa</h1>
+  </div>
+  <div>
+    <h1 style="font-variation-settings: 'wght' 560, 'wdth' 200;">Aa</h1>
+  </div>
+  <div class="type">
+    <h1 style="font-variation-settings: 'wght' 700, 'wdth' 50;">Aa</h1>
+    <p>bold</p>
+  </div>
+  <div>
+    <h1 style="font-variation-settings: 'wght' 700, 'wdth' 110;">Aa</h1>
+  </div>
+  <div class="type">
+    <h1 style="font-variation-settings: 'wght' 700, 'wdth' 200;">Aa</h1>
+    <p>bold expanded</p>
+  </div>
+</section>
+
+<section class="abc bold">
+  <p>DORN</p>
+  <p>abcdefghijk</p>
+  <p>lmnopqrst</p>
+  <p>uvwxyz</p>
+  <p>1234567890</p>
+  <p>fffiflft</p>
+  <span class="capital">
+    <p>ABCDEF</p>
+    <p>GHIJKLM</p>
+    <p>NOPQRS</p>
+    <p>TUVWXY</p>
+    <p>ZTh</p>
+  </span>
+</section>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
